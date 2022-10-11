@@ -29,4 +29,5 @@ submitbtn.addEventListener("click", function () {
   let msg = document.querySelector("#email").value;
   let final = responce.textContent + msg;
   responce.innerHTML = final;
+  document.querySelector("#email").value = "";
 });
